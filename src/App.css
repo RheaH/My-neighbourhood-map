@@ -1,0 +1,93 @@
+
+
+.App {
+  text-align: center;
+  
+}
+
+
+
+
+/* map styling from google docs */
+#map {
+    height: 100vh;
+    width: 75%;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container{
+    height:100%;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  }
+  .venue-list{
+   width: 330px;
+   max-width: 100%;
+   max-height: 100vh;
+   z-index: 100;
+  }
+
+  .input-data{
+     width: 100%;
+     padding: 10px;
+     margin-top: 0;
+     font-size: 1.5em;
+     
+    }
+  .heading{
+    border: 1px solid #1C6EA4;
+    box-shadow: 2px 2px 7px 1px #1C6EA4;
+    padding: 5px;
+    margin-top: 0;
+    margin-bottom: 6px;
+  }
+
+  .view{
+    list-style: none;
+    border: 1px solid #1C6EA4;
+    width: 100%;
+    height: 30px;
+    padding: 15px;
+    margin-top: -12px;
+    margin-left: -38px;
+    margin-bottom: 11px;
+    font-size: 1.4em;
+  }
+  .view:hover{
+    cursor: pointer;
+  }
+  .view-name{
+    margin-top: -5px;
+  }
+
+  .navbar{
+    width:100%;
+    height: 50px;
+    font-size: 1.6rem;
+    text-align: center;
+    padding-top: 20px;
+    color:white;
+    background-color: #1C6EA4;
+  }
+  .footer{
+    width:100%;
+    height: 50px;
+    text-align: center;
+    background-color: #1C6EA4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .attribute{
+    font-size: 1.2rem;
+     color:white;
+  }
+  .link{
+    text-decoration: none;
+    color: white;
+  }
